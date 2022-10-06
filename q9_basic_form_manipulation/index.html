@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<h1>Handphone Repair Online</h1>
+    <div>
+        <div>
+            <label>Your email address:</label>
+            <input type="email" id="email-address"/>
+        </div>
+        <div>
+                <label>Handphone brand/model</label>
+                <input type="radio" class="phone-type" value="iphone-old"/>iPhone 7 or older
+                <input type="radio" class="phone-type" value="iphone-new"/>iPhone 8 or newer
+                <input type="radio" class="phone-type" value="samsung-old"/>Samsung Galaxy 9 or older
+                <input type="radio" class="phone-type" value="samsung-new"/>Samsung Galaxy 9+ or newer
+                <input type="radio" class="phone-type" value="other-android"/>Other Android brand/models
+        </div>
+        <div>
+            <label>What sort of services do you need?</label>
+            <input type="checkbox" class="services" value="replace-screen"/>Replace screen
+            <input type="checkbox" class="services" value="replace-battery"/>Replace battery
+            <input type="checkbox" class="services" value="flash-bios"/>Flash bios
+            <input type="checkbox" class="services" value="backup"/>Backup old data
+        </div>
+        <div>
+            <label>Where do you want to pick up?</label>
+            <select id="pick-up">
+                <option value="yishun">Yishun</option>
+                <option value="clementi">Clementi</option>
+                <option value="bedok">Bedok</option>
+            </select>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,10 @@
+node_modules
+solutions.*
+index_solution.html
+/**/solutions.js
+bfg.jar
+examples
+*.jar
+solutions.js
+.env
+config.live.js

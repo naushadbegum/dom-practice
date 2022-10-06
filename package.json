@@ -1,0 +1,30 @@
+{
+  "name": "javascript-dom-execrises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kunxin-chor/javascript-dom-execrises.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kunxin-chor/javascript-dom-execrises/issues"
+  },
+  "homepage": "https://github.com/kunxin-chor/javascript-dom-execrises#readme",
+  "devDependencies": {
+    "jest": "^29.1.2"
+  },
+  "dependencies": {
+    "axios": "^1.0.0",
+    "dotenv": "^16.0.3",
+    "jest-environment-jsdom": "^29.1.2",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.4.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
